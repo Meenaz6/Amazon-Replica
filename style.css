@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    border:border-box;
+    font-family: Arial;
+}
+.navbar{
+    height: 60px;
+    background-color: #1D492F;
+    color:white; 
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+.nav-logo{
+    height:50px;
+    width:120px;
+
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:50px;
+    width:120px;
+   /* position:relative;
+    top:5px;
+    left:5px; */
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-first{
+    font-size:0.85rem;
+    color:#cccccc;
+    margin-left:15px;
+}
+.add-icon{
+    display:flex;
+    alignment:center;
+}
+.add-sec{
+    font-size:1rem;
+    color:#FFFFFF;
+    margin-left:5px;
+}
+.nav-search{
+    display:flex;
+    justify-content: space-evenly ;
+    align-items:center;
+    border-radius:4px;
+}
+.search-icon{
+    background-color: #731C59;
+    height:31px ;
+    width:40px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px; 
+    border:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+
+}
+.search-input{
+    height:28px;
+    width:550px;
+    font-size:1rem;
+    border:none;
+
+}
+.search-select{
+    background-color:#f3f3f3;
+    height:30px;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+
+/** box4 **/
+
+span{
+    font-size:0.8rem;
+}
+
+.nav-sec{
+    font-size:0.85rem;
+    font-weight: 700;
+    color:white;
+    background-color:#1D492F ;
+    border:none;
+}
+.nav-search:hover{
+    border: 2px solid rgb(47, 17, 17); 
+
+}
+ /**box5**/
+
+ .nav-cart i{
+    font-size: 25px;
+ }
+ .nav-cart{
+    font-size:0.85rem;
+    font-weight:700;
+ }
+ .panel{
+    display:flex;
+    background-color: #0a5027;;
+    height: 40px;
+    color:white;
+    align-items:center;
+    justify-content: space-evenly;
+ }
+ .panel-ops p{
+    display:inline;
+    margin-left:15px;
+ }
+ .panel-ops{
+    width:91%;
+    font-size:0.90rem;
+ }
+ /* hero-section*/
+
+ .hero-section{
+    background-image: url(Hero.jpg);
+    background-size:cover;
+    height: 212px;
+ }
+
+ /* box section */
+
+
+ .box-section{
+    height: 500px; ;
+    background-color: #FF3633;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+ 
+ }
+ .box{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem ;
+}
+    
+
+.box-img{
+    height:300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.box-section p{
+    color:#007185;
+}
+.back{
+    background-color: rgb(57, 57, 73);
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+.back:hover{
+    background-color: rgb(78, 78, 99);
+}
+.end-content1{
+    background-color: #232f3E;
+    color:white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    margin-top:10px ;
+    font-size:14px;
+    color:#DDDDDD;
+}
+
+ul p{
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+.end-content2{
+    background-color:#232f3E ;
+    color:white;
+    border-top: 1px solid rgba(252, 239, 239, 0.911);
+    height:75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo1{
+    background-image: url(logo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:50px;
+    width:135px;
+    margin-right: 20px;
+
+}
+.option{
+    background-color: #232f3E;
+    color:#cccccc;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.option p{
+    margin-right: 20px;
+}
+
+.bord{
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 1.8rem;
+    margin-left: 0.8rem;
+}
